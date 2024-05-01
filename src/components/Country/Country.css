@@ -67,7 +67,7 @@
   background-color: rgb(181, 235, 236);
 }
 
-@media (300px<=width<=600px) {
+@media (550px<=width<=750px) {
   .box {
     width: 35vw;
     height: 45vh;
@@ -141,3 +141,77 @@ h5 {
   font-weight: 700;
   text-decoration: underline;
 }
+@media (200px<=width<=550px) {
+    .box {
+      width: 60vw;
+      height: 45vh;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      border-radius: 10px;
+      margin: 2vh 2vh;
+      padding: 10px 10px;
+      text-align: center;
+    }
+    .box img {
+        width: 60vw;
+        height: 15vh;
+      position: relative;
+  
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+    .box button {
+      border: 0px solid black;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      border-radius: 5px;
+      background-color: tomato;
+      font-size: 12px;
+      padding: 3px 8px;
+      cursor: pointer;
+      margin: 30px 10px;
+    }
+    .box button:hover {
+      background-color: rgb(242, 164, 150);
+    }
+    .visited {
+      width: 60vw;
+      height: 45vh;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      border-radius: 10px;
+      margin: 2vh 2vh;
+      padding: 10px 10px;
+      text-align: center;
+      background-color: cadetblue;
+    }
+    .visited img {
+      width:60vw;
+      height: 15vh;
+      position: relative;
+  
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+    .visited button {
+      border: 0px solid black;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      border-radius: 5px;
+      background-color: rgb(71, 252, 255);
+      font-size: 12px;
+      padding: 3px 8px;
+      cursor: pointer;
+      margin: 30px 10px;
+    }
+    .box button:hover {
+      background-color: rgb(181, 235, 236);
+    }
+  }
+  h5 {
+    font-weight: 700;
+    text-decoration: underline;
+  }
